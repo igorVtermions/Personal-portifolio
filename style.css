@@ -22,6 +22,10 @@
     --tran-05: all 0.3s ease;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     min-height: 100vh;
     background-color: var(--body-color);
@@ -491,10 +495,16 @@ header .image-text .profession{
 }
 
 .modalContact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
     display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
 }
 
 
@@ -505,7 +515,6 @@ header .image-text .profession{
     border-radius: 10px;
     background-color: #695CFE;
     z-index: 1;
-    position: absolute;
     border: 2px solid white;
     animation: modalApre .4s;
     display: flex;
@@ -563,3 +572,4 @@ header .image-text .profession{
     justify-content: center;
     font-weight: bold;
 }
+
