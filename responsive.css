@@ -1,0 +1,147 @@
+@media(max-width: 770px){
+    .about{
+        padding-top: 30px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contentAbout{
+        width: 550px;
+    }
+    .technology{
+        width: 550px;
+    }
+    .certificate{
+        width: 550px;
+    }
+    .cardCert{
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imgcert{
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 430px){
+    .sidebar.close {
+        width: 68px;
+        padding: 10px 6px;
+    }
+    .wrapper{
+        margin-left: 68px;
+    
+    }
+    .modalApresentation{
+        width: 300px;
+    }
+    .contentAbout{
+        width: 300px;
+    }
+    .technology{
+        width: 300px;
+    }
+    .certificate{
+        width: 325px;
+    }
+    .cardCert{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imgcert{
+        border-radius: 10px;
+        width: 290px;
+        height: 250px;
+    }
+    .textAbout{
+        font-size: 13px;
+    }
+    .aboutCert{
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    .project{
+        margin-top: 100px;
+    }
+    .card{
+        width: 300px;
+        height: 500px;
+    }
+    .imgCard{
+        width: 290px;
+    }
+    .aboutCard{
+        width: 300px;
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .contact{
+        margin-top: 100px;
+    }
+    .textFooter{
+        font-size: 12px;
+    }
+    .footerIntro{
+        width: 320px;
+    }
+}
+
+
+@media(max-width: 380px){
+    .sidebar.close {
+        width: 68px;
+        padding: 10px 6px;
+    }
+    .wrapper{
+        margin-left: 68px;
+    
+    }
+    .modalApresentation{
+        width: 300px;
+    }
+    .contentAbout{
+        width: 300px;
+    }
+    .technology{
+        width: 300px;
+    }
+    .certificate{
+        width: 300px;
+    }
+    .cardCert{
+        width: 300px;
+    }
+    .imgcert{
+        width: 280px;
+        height: 200px;
+    }
+    .card{
+        width: 300px;
+        height: 500px;
+    }
+    .imgCard{
+        width: 280px;
+    }
+    .aboutCard{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .contact{
+        margin-top: 100px;
+    }
+    .textFooter{
+        font-size: 12px;
+    }
+    .footerIntro{
+        width: 280px;
+    }
+}
