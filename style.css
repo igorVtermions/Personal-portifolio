@@ -313,6 +313,7 @@ header .image-text .profession{
     color: var(--text-color);
     border-radius: 10px;
     transition: var(--tran-05);
+    margin-top: 10px;
 }
 .cardCert:hover{
     transform: scale(1.1);
