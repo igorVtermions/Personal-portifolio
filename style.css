@@ -276,6 +276,7 @@ header .image-text .profession{
     align-items: center;
     height: 930px;
     flex-direction: column;
+    margin-top: 150px;
 }
 .aboutText{
     margin-bottom: 50px;
