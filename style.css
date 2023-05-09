@@ -229,16 +229,14 @@ header .image-text .profession{
 }
 
 .btnApresentation{
-    padding: 10px;
-    border: none;
+    background-color: white;
+    padding: 10px ;
     border-radius: 10px;
-    font-size: 15px;
-    font-weight: bolder;
-    cursor: pointer;
-    transition: var(--tran-05);
+    gap: 10px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
 }
 
 #imgGit{
