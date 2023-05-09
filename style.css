@@ -236,6 +236,13 @@ header .image-text .profession{
     font-weight: bolder;
     cursor: pointer;
     transition: var(--tran-05);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#imgGit{
+   font-size: 30px
 }
 
 .btnApresentation:hover{
